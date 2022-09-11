@@ -1,14 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67812594-cf16-4692-83cf-d2101b5e9dce" name="Changes" comment="" />
+    <list default="true" id="67812594-cf16-4692-83cf-d2101b5e9dce" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/상속/IH02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/상속/IH03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/상속/IH04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/상속/IH01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/상속/IH01.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2EdEVhNAgur3w1WZ2n9rPUeIrai" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -17,16 +39,46 @@
   "keyToString": {
     "Project.color": "59011c",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.T1">
-    <configuration name="T1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Testing.T1" />
+  <component name="RunManager" selected="Application.IH04">
+    <configuration name="IH01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="상속.IH01" />
       <module name="GrammarJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Testing.*" />
+          <option name="PATTERN" value="상속.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IH02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="상속.IH02" />
+      <module name="GrammarJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="상속.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IH04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="상속.IH04" />
+      <module name="GrammarJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="상속.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -43,7 +95,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.T1" />
+        <item itemvalue="Application.IH04" />
+        <item itemvalue="Application.IH02" />
+        <item itemvalue="Application.IH01" />
         <item itemvalue="Application.Test01" />
       </list>
     </recent_temporary>
