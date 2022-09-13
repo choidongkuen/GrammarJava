@@ -2,22 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67812594-cf16-4692-83cf-d2101b5e9dce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/인터페이스/Inter01/In01Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/인터페이스/Inter01/LG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/인터페이스/Inter01/RemoteControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/인터페이스/Inter01/Samsung.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/인터페이스/Inter01/canCall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/인터페이스/Inter02/Army.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/인터페이스/Inter02/In02Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/인터페이스/Inter02/Marine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/인터페이스/Inter02/SDT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/인터페이스/Inter02/SSU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/인터페이스/Inter02/SevenZeroSeven.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/인터페이스/Inter02/Solider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/인터페이스/Inter02/UDT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/인터페이스/test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/스트링/Str01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/스트링/StringBufferTest/StringBufferTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/스트링/StringBufferTest/StringPlus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/오버라이딩/Over01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/오버라이딩/Over02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/오버라이딩/Over03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/오버라이딩/Over04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/오버라이딩/Over05.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/추상/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/추상/Figure.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,13 +50,13 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="애플리케이션.In02Test">
-    <configuration name="Ab01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="추상.Ab01" />
+  <component name="RunManager" selected="애플리케이션.Over05">
+    <configuration name="Over02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="오버라이딩.Over02" />
       <module name="GrammarJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="추상.*" />
+          <option name="PATTERN" value="오버라이딩.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FruitTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="상속.다형성.인스턴스오브연산자.FruitTest" />
+    <configuration name="Over03 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="오버라이딩.Over03" />
       <module name="GrammarJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="상속.다형성.인스턴스오브연산자.*" />
+          <option name="PATTERN" value="오버라이딩.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="In01Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="인터페이스.Inter01.In01Test" />
+    <configuration name="Over03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="오버라이딩.Over03" />
       <module name="GrammarJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="인터페이스.Inter01.*" />
+          <option name="PATTERN" value="오버라이딩.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="In02Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="인터페이스.Inter02.In02Test" />
+    <configuration name="Over04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="오버라이딩.Over04" />
       <module name="GrammarJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="인터페이스.Inter02.*" />
+          <option name="PATTERN" value="오버라이딩.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpCasting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="상속.다형성.업캐스팅.UpCasting" />
+    <configuration name="Over05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="오버라이딩.Over05" />
       <module name="GrammarJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="상속.다형성.업캐스팅.*" />
+          <option name="PATTERN" value="오버라이딩.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.In02Test" />
-        <item itemvalue="애플리케이션.In01Test" />
-        <item itemvalue="애플리케이션.Ab01" />
-        <item itemvalue="애플리케이션.FruitTest" />
-        <item itemvalue="애플리케이션.UpCasting" />
+        <item itemvalue="애플리케이션.Over05" />
+        <item itemvalue="애플리케이션.Over04" />
+        <item itemvalue="애플리케이션.Over03 (1)" />
+        <item itemvalue="애플리케이션.Over03" />
+        <item itemvalue="애플리케이션.Over02" />
       </list>
     </recent_temporary>
   </component>
