@@ -2,21 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67812594-cf16-4692-83cf-d2101b5e9dce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/배열/Ar01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/배열/Ar02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/상속/IH05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/상속/VehicleTest/Bicycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/상속/VehicleTest/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/상속/VehicleTest/Train.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/상속/VehicleTest/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/상속/VehicleTest/VehicleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/정적/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/정적/CircleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/클래스_객체/CreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/클래스_객체/CreditCardTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/클래스_객체/생성자/C01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/클래스_객체/생성자/C01Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/상속/다형성/다운캐스팅/DownCasting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/상속/다형성/다운캐스팅/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/상속/다형성/다운캐스팅/SchoolStaff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/상속/다형성/다운캐스팅/Staff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/상속/다형성/업캐스팅/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/상속/다형성/업캐스팅/SchoolStaff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/상속/다형성/업캐스팅/Staff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/상속/다형성/업캐스팅/UpCasting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/상속/다형성/인스턴스오브연산자/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/상속/다형성/인스턴스오브연산자/FruitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/상속/메서드오버라이딩/Over01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/추상/Ab01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/추상/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/추상/Figure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/추상/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/추상/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/상속/IH05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/상속/IH05.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,13 +58,13 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.VehicleTest">
-    <configuration name="Ar02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="배열.Ar02" />
+  <component name="RunManager" selected="애플리케이션.Ab01">
+    <configuration name="Ab01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="추상.Ab01" />
       <module name="GrammarJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="배열.*" />
+          <option name="PATTERN" value="추상.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CircleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="정적.CircleTest" />
+    <configuration name="FruitTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="상속.다형성.인스턴스오브연산자.FruitTest" />
       <module name="GrammarJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="정적.*" />
+          <option name="PATTERN" value="상속.다형성.인스턴스오브연산자.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Vehicle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="상속.VehicleTest.Vehicle" />
+    <configuration name="UpCasting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="상속.다형성.업캐스팅.UpCasting" />
       <module name="GrammarJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="상속.VehicleTest.*" />
+          <option name="PATTERN" value="상속.다형성.업캐스팅.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +126,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.VehicleTest" />
-        <item itemvalue="Application.Vehicle" />
-        <item itemvalue="Application.IH05" />
-        <item itemvalue="Application.Ar02" />
-        <item itemvalue="Application.CircleTest" />
+        <item itemvalue="애플리케이션.Ab01" />
+        <item itemvalue="애플리케이션.FruitTest" />
+        <item itemvalue="애플리케이션.UpCasting" />
+        <item itemvalue="애플리케이션.IH05" />
       </list>
     </recent_temporary>
   </component>
@@ -141,5 +143,16 @@
       <updated>1662917086499</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
