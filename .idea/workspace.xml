@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67812594-cf16-4692-83cf-d2101b5e9dce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/인터페이스/Inter03/ClassPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/추상/홍만군/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/추상/홍만군/PersonalNumberStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/인터페이스/Inter05/MultiInteritance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/오버라이딩/개인정보관리프로그램/Friend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/오버라이딩/개인정보관리프로그램/Friend.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/오버라이딩/개인정보관리프로그램/FriendInfoHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/오버라이딩/개인정보관리프로그램/FriendInfoHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/인터페이스/Inter03/ClassPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/인터페이스/Inter03/ClassPrinter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +44,13 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="애플리케이션.추상.홍만군.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="오버라이딩.개인정보관리프로그램.Main" />
+  <component name="RunManager" selected="애플리케이션.MultiInteritance">
+    <configuration name="ImplObjectPrintln (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="인터페이스.Inter03.ImplObjectPrintln" />
       <module name="GrammarJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="오버라이딩.개인정보관리프로그램.*" />
+          <option name="PATTERN" value="인터페이스.Inter03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,12 +58,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Map01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="컬렉션.맵.Map01" />
+    <configuration name="ImplObjectPrintln (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="인터페이스.Inter03.ImplObjectPrintln" />
       <module name="GrammarJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="컬렉션.맵.*" />
+          <option name="PATTERN" value="인터페이스.Inter03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Set01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="컬렉션.세트.Set01" />
+    <configuration name="ImplObjectPrintln (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="인터페이스.Inter03.ImplObjectPrintln" />
       <module name="GrammarJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="컬렉션.세트.*" />
+          <option name="PATTERN" value="인터페이스.Inter03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ve01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="컬렉션.벡터.Ve01" />
+    <configuration name="ImplObjectPrintln" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="인터페이스.Inter03.ImplObjectPrintln" />
       <module name="GrammarJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="컬렉션.벡터.*" />
+          <option name="PATTERN" value="인터페이스.Inter03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="추상.홍만군.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="추상.홍만군.Main" />
+    <configuration name="MultiInteritance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="인터페이스.Inter05.MultiInteritance" />
       <module name="GrammarJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="추상.홍만군.*" />
+          <option name="PATTERN" value="인터페이스.Inter05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.추상.홍만군.Main" />
-        <item itemvalue="애플리케이션.Main" />
-        <item itemvalue="애플리케이션.Map01" />
-        <item itemvalue="애플리케이션.Set01" />
-        <item itemvalue="애플리케이션.Ve01" />
+        <item itemvalue="애플리케이션.MultiInteritance" />
+        <item itemvalue="애플리케이션.ImplObjectPrintln (3)" />
+        <item itemvalue="애플리케이션.ImplObjectPrintln (2)" />
+        <item itemvalue="애플리케이션.ImplObjectPrintln (1)" />
+        <item itemvalue="애플리케이션.ImplObjectPrintln" />
       </list>
     </recent_temporary>
   </component>
