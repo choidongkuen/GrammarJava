@@ -12,5 +12,8 @@ public class Gen04 {
         GenMethod.print(scores); // double 배열 출력
 
         // 형이 다를때마다 print 메서드 추가? -> 제네릭
+
+        System.out.println(GenMethod.getLastItem(names));
+        System.out.println(GenMethod.getLastItem(scores));
     }
 }

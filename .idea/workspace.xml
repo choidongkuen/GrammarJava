@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67812594-cf16-4692-83cf-d2101b5e9dce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/인터페이스/Inter05/MultiInteritance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/인터페이스/Inter03/ClassPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/인터페이스/Inter03/ClassPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/인터페이스/Inter05/MultiInteritance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/인터페이스/Inter05/MultiInteritance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/제네릭/Gen04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/제네릭/Gen04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/제네릭/GenMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/제네릭/GenMethod.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,20 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="애플리케이션.MultiInteritance">
+  <component name="RunManager" selected="애플리케이션.Gen04">
+    <configuration name="Gen04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="제네릭.Gen04" />
+      <module name="GrammarJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="제네릭.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ImplObjectPrintln (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="인터페이스.Inter03.ImplObjectPrintln" />
       <module name="GrammarJava" />
@@ -84,19 +98,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImplObjectPrintln" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="인터페이스.Inter03.ImplObjectPrintln" />
-      <module name="GrammarJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="인터페이스.Inter03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MultiInteritance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="인터페이스.Inter05.MultiInteritance" />
       <module name="GrammarJava" />
@@ -112,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Gen04" />
         <item itemvalue="애플리케이션.MultiInteritance" />
         <item itemvalue="애플리케이션.ImplObjectPrintln (3)" />
         <item itemvalue="애플리케이션.ImplObjectPrintln (2)" />
         <item itemvalue="애플리케이션.ImplObjectPrintln (1)" />
-        <item itemvalue="애플리케이션.ImplObjectPrintln" />
       </list>
     </recent_temporary>
   </component>

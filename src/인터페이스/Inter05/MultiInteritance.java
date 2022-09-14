@@ -39,6 +39,6 @@ public class MultiInteritance {
 
         TV tv = iptv; // 업캐스팅
         Computer computer = iptv; // 일종의 업캐스팅
-        System.out.println("hello".getClass());
+
     }
 }

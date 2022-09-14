@@ -19,4 +19,8 @@ public class GenMethod {
             System.out.println(item[i]);
         }
     }
+
+    public static <E> E getLastItem(E[] item){ // 제네릭 메소드 + 반환형도 제네릭
+        return item[item.length - 1];
+    }
 }
