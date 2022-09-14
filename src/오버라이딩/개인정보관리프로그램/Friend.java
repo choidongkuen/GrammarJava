@@ -1,6 +1,6 @@
 package 오버라이딩.개인정보관리프로그램;
 
-public class Friend { // 최상위 클래스
+public abstract class Friend { // 최상위 클래스
     String name;
     String phoneNum;
     String addr;
@@ -17,5 +17,5 @@ public class Friend { // 최상위 클래스
         System.out.println("addr = " + addr);
     }
 
-    public void showSimpleData(){}// 기본정보를 출력하는 메서드 -> 추상메서드는 아니다.
+    public abstract void showSimpleData();// 기본정보를 출력하는 메서드 -> 추상메서드는 아니다.
 }

@@ -24,7 +24,7 @@ public class FriendInfoHandler {
         Scanner sc = new Scanner(System.in);
         System.out.print("name : "); name = sc.next(); // 이름 입력
         System.out.print("phoneNum : ");phoneNum = sc.next(); // 전화번호 입력
-        System.out.println("address : ");addr = sc.next(); // 주소 입력
+        System.out.print("address : ");addr = sc.next(); // 주소 입력
 
         if(choice == 1) { // 고등학교 친구
             System.out.print("work : ");
@@ -41,12 +41,16 @@ public class FriendInfoHandler {
     }
 
     public void showAllData(){
-        for(Friend f : myFriends)
+        for(Friend f : myFriends) {
             f.showData(); // 각 하위클래스의 오버라이딩된 메서드 호출(showData())
+            System.out.println("================");
+        }
     }
 
-    public void showAllSimpleData(){
-        for(Friend f : myFriends)
+    public void showAllSimpleData() {
+        for (Friend f : myFriends) {
             f.showSimpleData(); // 각 하위클래스의 오버라이딩된 메서드 호출(showSimpleData()) -> Friend 에서 구현부를 빈 상태로 무리하게 메소드 호출한 이유 !!
+            System.out.println("================");
+        }
     }
 }
