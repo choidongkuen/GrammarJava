@@ -43,7 +43,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="애플리케이션.Main">
+  <component name="RunManager" selected="Application.Gen04">
     <configuration name="Gen04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="제네릭.Gen04" />
       <module name="GrammarJava" />
@@ -103,15 +103,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="애플리케이션.Main" />
-        <item itemvalue="애플리케이션.Sort" />
-        <item itemvalue="애플리케이션.Gen04" />
-        <item itemvalue="애플리케이션.MultiInteritance" />
-        <item itemvalue="애플리케이션.ImplObjectPrintln (3)" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
