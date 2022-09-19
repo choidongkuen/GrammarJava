@@ -1,17 +1,14 @@
+import java.util.Random;
 
-
-class Parent{
-
-    protected void print(){
-        System.out.println(" 나는 부모입니다. ");
-    }
-}
-public class Main extends Parent{
+class Main{
     public static void main(String[] args) {
+        Random rand1 = new Random(2);
+        Random rand2 = new Random(2);
 
-    }
-    public void printPa(){
-        this.print();
-        super.print(); // 인스턴스 영
+        System.out.println(rand1.nextInt());
+        System.out.println(rand2.nextInt());
+
+        for(int i = 0; i < 10 ; i ++)
+            System.out.print(rand1.nextInt()+"  ");
     }
 }
