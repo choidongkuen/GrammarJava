@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67812594-cf16-4692-83cf-d2101b5e9dce" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/MathClass/Ma01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MathClass/Ma01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MathClass/Ma03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MathClass/Ma02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MathClass/Ma02.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +44,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ma01">
+  <component name="RunManager" selected="Application.Ma02">
     <configuration name="Big01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BigInteger_BigDecimal.Big01" />
       <module name="GrammarJava" />
@@ -82,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WC04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WrapperClass.WC04" />
+    <configuration name="Ma02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MathClass.Ma02" />
       <module name="GrammarJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WrapperClass.*" />
+          <option name="PATTERN" value="MathClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WC05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WrapperClass.WC05" />
+    <configuration name="Ma03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MathClass.Ma03" />
       <module name="GrammarJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WrapperClass.*" />
+          <option name="PATTERN" value="MathClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ma02" />
+        <item itemvalue="Application.Ma03" />
         <item itemvalue="Application.Ma01" />
         <item itemvalue="Application.Big02" />
         <item itemvalue="Application.Big01" />
-        <item itemvalue="Application.WC05" />
-        <item itemvalue="Application.WC04" />
       </list>
     </recent_temporary>
   </component>
