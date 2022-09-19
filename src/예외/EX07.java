@@ -3,6 +3,7 @@
 
 // throw 키워드는 예외 상황이 발생했음을 JVM 에게 알리는 키워드이다.
 // throws 키워드는 해당 영역에서 발생한 예외 상황 처리를 자신을 호출한 영역으로 넘기겠다는 키워드이다.
+// 즉, throw 에 의해 생성된 예외 상황은 반드시 try ~ catch 문에 의해 처리되거나, throws 에 의해 넘겨져야 한다 !!
 
 package 예외;
 
@@ -23,8 +24,8 @@ public class EX07 {
 
             int age = readAge();
             System.out.println("당신은 " + age + "세 입니다.");
-        } catch (
-                AgeInputException e) {
+        }
+        catch (AgeInputException e) {
             System.out.println(e.getMessage());
         }
     }
