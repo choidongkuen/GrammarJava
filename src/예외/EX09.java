@@ -25,6 +25,7 @@ class PersonalInfo{
     public PersonalInfo(String name ,int age){
         this.name = name;
         this.age = age;
+        this.showPersonalInfo();
     }
     public void showPersonalInfo(){
         System.out.println("name = " + name);
@@ -42,7 +43,7 @@ public class EX09 {
         }catch(AgeInputException03 e){
             e.printStackTrace();
         }catch(NameLengthException e){
-            e.showWrongName();
+//            e.showWrongName();
             e.printStackTrace();
         }
     }
