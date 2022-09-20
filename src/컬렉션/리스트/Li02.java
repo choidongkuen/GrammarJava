@@ -3,8 +3,10 @@
 
 // 메소드 :
 // add(Object obj) # 인스턴스 추가
+// addAll(Collection c) # 컬렉션에 있는 모든 인스턴스 추가
 // remove(int index) # 인덱스 값 삭제
 // remove(Object obj) # 인스턴스 삭제
+// removeAll(Collection c) # 컬렉션에서 동일한 것들을 모두 삭제(차집합)
 // get(int index) # 인덱스 값 반환
 // set(int index, Object obj) # 인덱스 값 변경
 // indexOf(Object obj) # 인스턴스의 첫번째 인덱스 반환
@@ -13,6 +15,7 @@
 // isEmpty() # ArrayList 비어있는지 여부 확인
 // size() # ArrayList 크기 반환
 // contains(Object obj) # 인스턴스 존재 여부 확인
+// containsAll(Collection c) # 주어진 컬렉션에 저장된 모든 객체들을 포함하고 있는지 확인
 // toArray() # 일반 배열 타입으로 반환(저장할 배열 타입에 맞춰 자동 형변환, 배열 크기 또한 자동으로 맞춰서 변경)
 // addAll(Collection c) # 두 컬렉션을 합침
 

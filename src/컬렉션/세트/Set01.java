@@ -1,3 +1,19 @@
+// Set 인터페이스를 구현하는 컬렉션 클래스의 특징
+// 1. 저장 순서 유지 x
+// 2. 중복 허용 x
+
+// 메소드 :
+// add(Object obj) # 인스턴스 추가
+// addAll(Collection c) # 컬렉션에 있는 모든 인스턴스 추가
+// remove(Object obj) # 인스턴스 삭제
+// removeAll(Collection c) # 컬렉션에서 동일한 것들을 모두 삭제(차집합)
+// isEmpty() # 컬렉션 비어있는지 확인
+// clear() # 모든 데이터 삭제
+// size() # 크기 반환
+// contains(Object obj) # 인스턴스 존재 여부 확인
+// containsAll(Collection c) # 주어진 컬렉션에 저장된 모든 객체들을 포함하고 있는지 확인
+// toArray() # 객체 배열로 변환
+
 package 컬렉션.세트;
 
 import java.util.HashSet;

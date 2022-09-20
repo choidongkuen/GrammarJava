@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67812594-cf16-4692-83cf-d2101b5e9dce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/컬렉션/리스트/IteratorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/컬렉션/리스트/IteratorUsage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/컬렉션/리스트/Li02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/컬렉션/리스트/Li03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/컬렉션/세트/Set02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/컬렉션/세트/Set03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/컬렉션/세트/Set04.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/컬렉션/리스트/Li01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/컬렉션/리스트/Li01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/컬렉션/리스트/Li02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/컬렉션/리스트/Li02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/컬렉션/세트/Set01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/컬렉션/세트/Set01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +47,13 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.IteratorUsage">
-    <configuration name="Gen09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="제네릭.Gen09" />
+  <component name="RunManager" selected="Application.Set04 (1)">
+    <configuration name="Set02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="컬렉션.세트.Set02" />
       <module name="GrammarJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="제네릭.*" />
+          <option name="PATTERN" value="컬렉션.세트.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,12 +61,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IteratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="컬렉션.리스트.IteratorTest" />
+    <configuration name="Set03 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="컬렉션.세트.Set03" />
       <module name="GrammarJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="컬렉션.리스트.*" />
+          <option name="PATTERN" value="컬렉션.세트.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IteratorUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="컬렉션.리스트.IteratorUsage" />
+    <configuration name="Set03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="컬렉션.세트.Set03" />
       <module name="GrammarJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="컬렉션.리스트.*" />
+          <option name="PATTERN" value="컬렉션.세트.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Li01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="컬렉션.리스트.Li01" />
+    <configuration name="Set04 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="컬렉션.세트.Set04" />
       <module name="GrammarJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="컬렉션.리스트.*" />
+          <option name="PATTERN" value="컬렉션.세트.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Li03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="컬렉션.리스트.Li03" />
+    <configuration name="Set04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="컬렉션.세트.Set04" />
       <module name="GrammarJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="컬렉션.리스트.*" />
+          <option name="PATTERN" value="컬렉션.세트.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IteratorUsage" />
-        <item itemvalue="Application.IteratorTest" />
-        <item itemvalue="Application.Li03" />
-        <item itemvalue="Application.Li01" />
-        <item itemvalue="Application.Gen09" />
+        <item itemvalue="Application.Set04 (1)" />
+        <item itemvalue="Application.Set04" />
+        <item itemvalue="Application.Set03 (1)" />
+        <item itemvalue="Application.Set03" />
+        <item itemvalue="Application.Set02" />
       </list>
     </recent_temporary>
   </component>
