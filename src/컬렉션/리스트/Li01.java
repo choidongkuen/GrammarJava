@@ -1,5 +1,9 @@
+// List 인터페이스를 구현한 클래스의 특징
+// 중복 허용
+// 저장 순서 유지
+
 // ArrayList = Array(인덱스로 접근) + List(동적 크기)
-// 보통 ArrayList 가 Linkedlist 보다 사용빈도가 많음
+// 보통 ArrayList 가 LinkedList 보다 사용빈도가 많음
 
 // 메소드 :
 // add(Object obj) # 인스턴스 추가
@@ -25,14 +29,15 @@ public class Li01 {
 
         ArrayList<Integer> arrList = new ArrayList<>(); // ArrayList 선언
 
+        arrList.ensureCapacity(400); // 동적으로 배열 크기를 조절하는건 다소 부담 -> 저장용량의 크기 설정 가능
         arrList.add(1);
         arrList.add(2);
         arrList.add(3);
         arrList.add(4);
         arrList.add(5); // 데이터 추가 : add
 
-        arrList.remove(0); // 0번 인덱스 인스턴스를 삭제
-        arrList.remove(Integer.valueOf(2)); // 2 에 값을 갖는 인스턴스를 삭제
+        arrList.remove(0); // 0번 인덱스 인스턴스의 참조값 삭제
+        arrList.remove(Integer.valueOf(2)); // 2 에 값을 갖는 인스턴스의 참조값 삭제
 
         System.out.println(arrList.get(2)); // 5
         System.out.println(arrList.indexOf(5)); // 2
@@ -60,6 +65,7 @@ public class Li01 {
         arrList.set(3,arrList.get(3) * 10);
         System.out.println(arrList);
 
+        arrList.ensureCapacity(arrList.size() * 2); // 현재 가지고 있는 인스턴스 수의 2배의 저장 용량으로 설정
         /*
         System.out.println("========");
         for(Integer element : arrList){
