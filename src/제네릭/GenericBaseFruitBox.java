@@ -87,3 +87,5 @@ public class GenericBaseFruitBox{
         ban1.showData();
     }
 }
+
+// 안전성 보장 및 다양한 형태의 자료형 사용 가능!!
