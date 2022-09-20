@@ -34,11 +34,11 @@ public class Gen05 {
         BBB bbb = new BBB();
         CCC ccc = new CCC();
 
-        InstanceTypeShower shower = new InstanceTypeShower();
+        InstanceTypeShower shower = new InstanceTypeShower(); // 각 인스턴스의 정보를 출력하는 기능을 하는 인스턴스를 생성하고,
 
-        shower.showInstType(aaa);
-        shower.showInstType(bbb);
-        shower.showInstType(ccc);
+        shower.<AAA>showInstType(aaa);
+        shower.<BBB>showInstType(bbb);
+        shower.<CCC>showInstType(ccc); // 제네릭 메소드 호출!
 
         shower.showPrintCnt();
     }
