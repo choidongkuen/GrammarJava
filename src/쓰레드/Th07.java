@@ -1,14 +1,16 @@
 // 동기화의 중요성을 알 수 있는 예제
-// 답 : 245861257
+// 답 : 300000000
 // 나오는 답 : 각기 다름(동기화 이슈)
 
-package 쓰레드;
+// 해결책01 : 동기화 메소드
+// 해결책02 : 동기화 블록 지정
 
+package 쓰레드;
 class Increment{
 
     private int num = 0;
 
-    public void increment(){num ++;}
+    public /*synchronized*/ void increment(){num ++;}
     public int getNum(){return this.num;}
 }
 
