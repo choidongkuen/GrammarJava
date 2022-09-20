@@ -12,3 +12,14 @@ public class Box01<T>{
         return data;
     }
 }
+
+class Test{
+    public static void main(String[] args) {
+        Box01<Integer> box01 = new Box01<Integer>();
+        box01.setBox(new Integer(20));
+        box01.setBox(Integer.valueOf(100));
+
+        System.out.println(box01.getBox());
+        //...
+    }
+}
