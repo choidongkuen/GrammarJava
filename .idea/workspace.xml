@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67812594-cf16-4692-83cf-d2101b5e9dce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/제네릭/Gen07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/제네릭/Gen08.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/제네릭/Gen09.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/제네릭/Gen06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/제네릭/Gen06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/컬렉션/리스트/Li01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/컬렉션/리스트/Li01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +43,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Gen09">
+  <component name="RunManager" selected="Application.Li01">
     <configuration name="Gen05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="제네릭.Gen05" />
       <module name="GrammarJava" />
@@ -99,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericBaseFruitBox (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="제네릭.GenericBaseFruitBox" />
+    <configuration name="Li01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="컬렉션.리스트.Li01" />
       <module name="GrammarJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="제네릭.*" />
+          <option name="PATTERN" value="컬렉션.리스트.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Li01" />
         <item itemvalue="Application.Gen09" />
         <item itemvalue="Application.Gen08" />
         <item itemvalue="Application.Gen07" />
         <item itemvalue="Application.Gen05" />
-        <item itemvalue="Application.GenericBaseFruitBox (1)" />
       </list>
     </recent_temporary>
   </component>
