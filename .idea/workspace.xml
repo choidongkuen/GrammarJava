@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67812594-cf16-4692-83cf-d2101b5e9dce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/쓰레드/Th03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/쓰레드/Th04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/쓰레드/Th05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/쓰레드/Th04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/쓰레드/Th04.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,34 +44,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Th04">
-    <configuration name="Th02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="쓰레드.Th02" />
-      <module name="GrammarJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="쓰레드.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Th05 (1)">
     <configuration name="Th03 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="쓰레드.Th03" />
-      <module name="GrammarJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="쓰레드.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Th03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="쓰레드.Th03" />
       <module name="GrammarJava" />
       <extension name="coverage">
@@ -111,13 +84,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Th05 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="쓰레드.Th05" />
+      <module name="GrammarJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="쓰레드.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Th05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="쓰레드.Th05" />
+      <module name="GrammarJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="쓰레드.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Th05 (1)" />
+        <item itemvalue="Application.Th05" />
         <item itemvalue="Application.Th04" />
         <item itemvalue="Application.Th04 (1)" />
         <item itemvalue="Application.Th03 (1)" />
-        <item itemvalue="Application.Th03" />
-        <item itemvalue="Application.Th02" />
       </list>
     </recent_temporary>
   </component>
