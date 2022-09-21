@@ -1,0 +1,206 @@
+자바(영어: Java)는 썬 마이크로시스템즈의 제임스 고슬링(James Gosling)과 다른 연구원들이 개발한 객체 지향적 프로그래밍 언어이다. 1991년 그린 프로젝트(Green Project)라는 이름으로 시작해 1995년에 발표했다. 처음에는 가전제품 내에 탑재해 동작하는 프로그램을 위해 개발되었지만 현재 웹 애플리케이션 분야에 가장 많이 사용하는 언어 중 하나이고, 안드로이드를 비롯한 모바일 기기용 소프트웨어 개발에도 널리 사용되고 있다. 현재 버전 18까지 출시했다.
+
+자바의 개발자들은 유닉스 기반의 배경을 가지고 있었기 때문에 문법적인 특성은 파스칼이 아닌 C++의 조상인 C 언어와 비슷하다.[3] 자바를 다른 컴파일언어와 구분 짓는 가장 큰 특징은 컴파일된 코드가 플랫폼 독립적이라는 점이다. 자바 컴파일러는 자바 언어로 작성된 프로그램을 바이트코드라는 특수한 바이너리 형태로 변환한다. 바이트코드를 실행하기 위해서는 JVM(자바 가상 머신, Java Virtual Machine)이라는 특수한 가상 머신이 필요한데, 이 가상 머신은 자바 바이트코드를 어느 플랫폼에서나 동일한 형태로 실행시킨다. 때문에 자바로 개발된 프로그램은 CPU나 운영 체제의 종류에 관계없이 JVM을 설치할 수 있는 시스템에서는 어디서나 실행할 수 있으며, 이 점이 웹 애플리케이션의 특성과 맞아떨어져 폭발적인 인기를 끌게 되었다.
+
+역사
+자바 언어는 1991년 6월 셋톱 프로젝트를 위해 제임스 고슬링(James Gosling)이 만들었다. 이 언어는 원래 제임스 고슬링의 사무실 밖에 있던 오크 나무를 따다 오크(Oak), 혹은 그린(Green) 이라고도 불렀으나, 단어 리스트 중 무작위로 뽑은 자바(Java)를 선택했다. 고슬링의 목표는 C/C++ 스타일의 언어와 가상 머신을 구현하는 것이었다. 첫 공개 자바 버전은 1995년의 자바 1.0이었다. 한 번 쓰고 어느 곳에도 실행 "Write Once, Run Anywhere"하는 것을 약속하였고 인기 플랫폼에 무료 런타임을 제공하였다. 이 플랫폼은 꽤 안정성을 지녔고 보안 시스템은 여러 설정을 통해 네트워크 및 파일 접근을 통제할 수 있었다. 대부분의 브라우저들은 곧 자바 애플릿(Java Applet)을 웹 페이지 안에서 실행할 수 있었고 자바의 인기는 급상승했다. 자바 2(JDK 1.2 ~ 1.4)의 출현으로 여러 다양한 플랫폼에서 사용할 수 있는 설정(Configuration)들을 만들었다. 예를 들어 J2EE는 엔터프라이즈 애플리케이션을 실행할 수 있고, J2ME는 모바일 애플리케이션을 실행할 수 있다. J2SE는 스탠다드 에디션으로 지정되었다. 2006년에 마케팅용으로 Java EE, Java ME, Java SE 순서대로 명칭을 바꾸었다.
+
+썬 마이크로시스템즈는 1997년 ISO/IEC JTC1 표준화 그룹, 그리고 나중에는 ECMA International 그룹과 접촉하여 정식 승인을 받으려 했으나 곧 이 프로세스에서 철수했다. 자바는 사실상 (de facto)의 표준이며 자바 커뮤니티 프로세스(Java Community Process)를 통해 관리되고 있다. 썬 마이크로시스템즈는 자바의 대부분을 무료로 배포하였으나 오픈이 아닌 사유 소프트웨어였다. 썬 마이크로시스템즈는 자바 엔터프라이즈 시스템 같은 특정 라이선스를 팔아서 수입을 올렸다. 썬(SUN) 사는 자사의 개발용(소프트웨어 개발 키트 (SDK))과 개발용의 일부인 실행용(자바 런타임 환경, JRE)을 구분한다. 실행용에는 컴파일러, 유틸리티 및 여러 개발용 헤더 파일이 포함되어 있지 않다.
+
+2006년 11월 13일 썬 마이크로시스템즈는 대부분은 자바를 GPL 라이선스로 소스를 오픈하였으며 2007년 5월 8일 이 과정을 마쳤다. 썬 마이크로시스템즈가 권한을 가지고 있지 않은 대부분의 코어 부분을 오픈하였다. 2009년 4월 20일 제작사인 썬 마이크로시스템즈가 오라클과 인수 합병됨에 따라 자바에 대한 권리 및 유지보수 또한 오라클로 넘어가게 되었다.
+
+
+Duke 자바 마스코트
+철학
+자바 언어는 다음 5가지의 핵심 목표를 지니고 있다.[4]
+
+객체 지향 방법론을 사용해야 한다.
+같은 프로그램(바이트코드)이 여러 운영 체제(마이크로프로세서)에서 실행될 수 있어야 한다.
+컴퓨터 네트워크 접근 기능이 기본으로 탑재되어 있어야 한다.
+원격 코드를 안전하게 실행할 수 있어야 한다.
+다른 객체 지향 언어들의 좋은 부분만 가지고 와서 사용하기 편해야 한다.
+자바는 초기 설계부터 객체 지향 언어(객체 지향 프로그래밍)로 설계되었다. C가 C++로 진화한 것과는 차이가 있다. 그리고 같은 코드로 어떤 마이크로프로세서에서나 실행되기를 원했다. 따라서 자바만의 실행 코드인 바이트코드라는 중간 코드를 컴파일러에 의해 생성한다. 그리고 자바 가상 머신(JVM)에 의해 해석되어 실행된다. 따라서 C/C++ 코드로 작성되어 생성된 코드보다 일대일 상황이면 실행 속도가 느리다. 그러나 장점은 같은 코드로 다양한 플랫폼이나 운영 체제에서 실행될 수 있다는 점이다.
+
+자바 실행 코드 생성 및 마이크로프로세서와 관계
+
+JVM 구조. 소스코드는 바이트코드로 컴파일되어 생성, 코드 검증, JVM에 의해 해석되어 실행(interpreted) 또는 JIT-compiled로 직접 기계어 코드로 변환 실행. JRE(Java Runtime Environment)에 API와 JVM이 함께 만들어짐.
+자바가 여러 개의 마이크로프로세서(CPU)에서 같은 코드가 실행되기 위해서는 C/C++의 프로그램의 실행 구조와는 다른 방식이 필요하다. C/C++가 특정 CPU의 기계어 코드를 직접 생성하면, 이 기계어 코드가 메모리에 적재되어 바로 실행된다. 따라서 C/C++는 CPU가 달라지면 컴파일러가 달라져야 한다. 임베디드 프로그램의 경우, gcc는 gcc 소스를 사용해서 특정 CPU를 지정하고, 컴파일러(x86 플랫폼에서)로 크로스 컴파일러를 만들 수 있다. x86 리눅스용 프로그램 만든다면, x86 컴파일러를 만들 수 있다. ARM용 프로그램이라면 ARM을 지정하고 컴파일러 소스를 컴파일러(x86에서 실행되는)로 ARM용 크로스 컴파일러를 만들 수 있다. 만약 gcc를 사용하고 싶지 않거나 gcc 컴파일러가 없다면, 특정 CPU 개발 도구는 구입을 해서 사용한다. 그러나 자바는 같은 코드를 사용하여 다른 CPU에서 실행되도록 하기 위해 직접 CPU의 기계어 코드를 생성해서는 안 된다. 그 대신 자바는 바이트코드(Java bytecode)라는 것을 생성한다. 이것을 자바 가상 머신(JVM, Java virtual machine)이 해석을 하여 실행한다. 자바 가상 머신이 인터프리터가 되어 코드 해석 방식의 실행을 함으로써, 같은 바이트코드를 가지고 여러 가지의 CPU에서 실행이 가능해진다. JVM은 CPU와 직접적 관계가 있으므로 이것은 CPU의 기계어 코드로 이루어진다.
+
+자바 실행 모델과 자바 바이트코드의 예
+자바의 실행 방식은 스택 실행 방식 언어(stack-oriented programming language)를 생각할 수 있다.
+
+int main()
+{
+  int a = 10;
+  int b = 20;
+  int c;
+   c = a + b;
+   printf("%d", c);
+   // 991
+}
+이것을 C/C++를 x86 프로세서용 컴파일러로 컴파일하면, 컴파일러와 최적화 등에 따라 다를 수 있지만 다음과 같은 예의 코드가 생성될 수 있다. C 언어에서 실행할 때, 지역변수는 스택이나 CPU의 레지스터를 이용한다. 스택이냐 레지스터냐는 개발 도구의 옵션에서 설정하는 최적화와 함수 내의 변수의 숫자와 관련이 있다. 함수의 블록이 시작되면 레지스터를 스택에 대피시키고, EBP를 스택의 포인터 값으로 설정하여 변수의 베이스 주소로 사용한다. 스택을 이용한다면 다음과 같은 어셈블리 결과를 생각할 수 있다.
+
+x86 프로세서에서 어셈블리어 코드 예는:
+
+ mov eax, DWORD PTR 4[ebp]
+ mov edx, DWORD PTR 8[ebp]
+ add eax, edx
+ mov DWORD PTR 12[ebp], eax
+이 코드는 2개의 정수형 숫자를 더해 다른 곳에 넣는 과정이다. 메모리에 적체된 코드를 x86이 읽어 실행시킬 수 있는 기계어로 일대일 대응된다. bp 레지스터는 CPU의 스택을 베이스로 한 포인터 레지스터이다. 주로 지역변수로 선언된 경우 스택을 사용한다.
+
+그러나 자바에서 보면:
+
+
+자바스크립트(영어: JavaScript)는 객체 기반의 스크립트 프로그래밍 언어이다. 이 언어는 웹 브라우저 내에서 주로 사용되며, 다른 응용 프로그램의 내장 객체에도 접근할 수 있는 기능을 가지고 있다. 또한 Node.js와 같은 런타임 환경과 같이 서버 프로그래밍에도 사용되고 있다. 자바스크립트는 본래 넷스케이프 커뮤니케이션즈 코퍼레이션의 브렌던 아이크(Brendan Eich)가 처음에는 모카(Mocha)라는 이름으로, 나중에는 라이브스크립트(LiveScript)라는 이름으로 개발하였으며, 최종적으로 자바스크립트가 되었다. 자바스크립트가 썬 마이크로시스템즈의 자바와 구문이 유사한 점도 있지만, 이는 사실 두 언어 모두 C 언어의 기본 구문에 바탕을 뒀기 때문이고, 자바와 자바스크립트는 직접적인 연관성은 약하다. 이름과 구문 외에는 자바보다 셀프나 스킴과 유사성이 많다. 자바스크립트는 ECMA스크립트(ECMAScript)의 표준 사양을 가장 잘 구현한 언어로 인정받고 있으며 ECMAScript 5(ES5)까지는 대부분의 브라우저에서 기본적으로 지원되었으나 ECMAScript 6 이후부터는 브라우저 호환성을 위해 트랜스파일러로 컴파일된다.[4]
+
+역사
+넷스케이프에서의 시작
+1993년, 일리노이 대학교 어배너-섐페인의 NCSA는 최초의 대중적인 그래픽 웹 브라우저인 NCSA 모자이크를 출시하였다. 1994년, 모자이크 커뮤니케이션스라는 이름의 회사가 캘래포니아주 마운틴 뷰에 설립되었으며 모자이크 넷스케이프를 만들기 위해 오리지널 NCSA 모자이크 개발자들을 고용하였다. 그러나 NCSA 모자이크와 코드는 의도적으로 공유하지 않았다. 이 기업의 브라우저의 내부 코드명은 모질라였으며 이는 "Mosaic and Godzilla"에서 비롯된 용어이다.[5]. 이 웹 브라우저의 첫 버전인 모자이크 넷스케이프 0.9는 1994년 말에 출시되었다. 4개월 후 브라우저 시장의 3/4를 잠식하면서 1990년대에 주된 웹 브라우저가 되었다. NCSA의 상표 소유권 문제를 회피하고자 이 브라우저는 같은 해에 "넷스케이프 내비게이터"로 이름을 바꾸었으며 이 기업은 "넷스케이프 커뮤니케이션스"라는 이름을 취하였다. 넷스케이프 커뮤니케이션스는 웹이 더 동적으로 변화할 필요가 있었음을 실감했다. 기업의 설립자 Marc Andreessen은 HTML에 코드를 웹 페이지 마크업으로 직접 작성하면서 웹 디자이너들과 파트타입 프로그래머들이 이미지, 플러그인 등의 요소를 쉽게 조합할 수 있는 글루 언어(glue language)가 필요했다고 믿었다.
+
+1995년, 넷스케이프 커뮤니케이션스는 스킴 프로그래밍 언어를 넷스케이프 내비게이터에 임베디드하기 위해 브렌던 아이크를 영입하였다.[6] 시작 전에 넷스케이프 커뮤니케이션스는 넷스케이프 내비게이터 썬의 더 정적인 프로그래밍 언어인 자바를 포함시키기 위해 썬 마이크로시스템즈와 협업했으며 이는 사용자에게 웹 기술 및 플랫폼을 채택시키려는 마이크로소프트와 경쟁하기 위해서였다.[7] 넷스케이프 커뮤니케이션스는 이때 자신들이 만들기 바랐던 스크립트 언어가 자바를 구현할 것이고 비슷한 문법을 채용하는 것이 좋겠다고 생각했으며 펄, 파이썬, Tcl, 스킴 등 기타 언어를 채택하는 것을 배제하였다. 경쟁적인 제안에 대항하여 자바스크립트 개념을 방어하기 위해 이 기업은 프로토타입이 필요했다. 아이크는 1995년 5월 10일 안에 이를 작성했다.
+
+원래 모카(Mocha)라는 이름으로 개발되었으나 이 언어는 공식적으로 라이브스크립트(LiveScript)로 불렸으며 이 당시 1995년 9월 넷스케이프 내비게이터 2.0의 베타 릴리스가 이루어졌으나 나중에 이름이 자바스크립트로 바뀌었는데[8] 이는 12월 넷스케이프 내비게이터 2.0 베타 3에 채용되었다.[9] 이름의 최종 선정에 혼란이 야기되었는데 이 언어가 자바 프로그래밍 언어에서 파생되었다는 인상을 심었으며 이러한 선택이 마케팅적인 특징을 보였고[10] 이는 넷스케이프가 당시 인기있는 웹 프로그래밍 언어로서 자바스크립트를 내밀기 위한 것이었다.
+
+자바와 자바스크립트, 그리고 J스크립트
+라이브스크립트의 이름이 자바스크립트로 변경된 것은 대략 넷스케이프가 자사의 넷스케이프 내비게이터 웹 브라우저에 자바 기술에 대한 지원을 포함하기 시작할 즈음이다. 자바스크립트는 1995년 12월 출시된 넷스케이프 2.0B3에서부터 공개, 채택되었다. 자바스크립트라는 이름은 상당한 혼란을 가져왔다. 이것은 자바와 자바스크립트 간에는 구문이 유사하다는 점(양쪽 모두 C에 바탕을 두었기 때문에) 외에는 실제 관련성이 없었기 때문이다. 두 언어는 의미론적으로 매우 다르고, 특히 각각의 객체 모델은 관련성이 없는 데다가 상당 부분이 호환되지 않는다.
+
+웹 페이지 향상 언어로서 자바스크립트의 성공에 자극받은 마이크로소프트는 J스크립트로 알려진 호환 언어를 개발하게 되었다. J스크립트는 1996년 8월에 출시된 인터넷 익스플로러 브라우저 3.0부터 지원 되기 시작했다. IE 브라우저에서의 자바스크립트 사용은 실제로는 J스크립트의 사용을 의미하는 것이었다. 이에 대한 표준화 요구는 ECMA스크립트에 대한 ECMA-262 표준의 기반이 되었으며, 1996년 11월 이후 세 번째 판까지 출판됐다. 자바스크립트와 함께 자주 쓰이는 용어인 DOM은 사실 ECMA스크립트 표준의 일부가 아니며, 그것은 자체로 하나의 표준이고 XML에 기반을 둔다.
+
+상표
+"자바스크립트"(JavaScript)는 이제 오라클의 상표이다.[11][12] 하지만 오라클은 자바스크립트에 일절 관여하지 않는다. 넷스케이프 커뮤니케이션스가 발명, 구현한 기술 및 모질라 재단과 같은 독립 기관의 라이선스 하에 사용된다.[13]
+
+헬로 월드 프로그램
+아래는 자바스크립트와 HTML5로 이루어진 헬로 월드 프로그램이며, 실선 내부가 자바스크립트의 부분이다.
+
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <title>자바스크립트 페이지</title>
+    <script type="text/javascript">
+      document.write("<p>Hello World!</p>");
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <p>브라우저가 자바스크립트 기능을 지원하지 않거나 자바스크립트 기능이 꺼져 있습니다.</p>
+    </noscript>
+  </body>
+</html>
+문법
+단순 문법
+자바스크립트의 변수는 var,[14] let[15], const[16] 키워드를 사용하여 정의할 수 있다.
+
+// Declares a function-scoped variable named `x`, and implicitly assigns the
+// special value `undefined` to it.
+var x;
+
+// More explicit version of the above.
+var x2 = undefined;
+
+// Declares a block-scoped variable named `y`, and implicitly sets it to
+// `undefined`. The `let` keyword was introduced in ECMAScript 2015.
+let y;
+
+// More explicit version of the above.
+let y2 = undefined;
+
+// Declares a block-scoped, un-reassign-able variable named `z`, and sets it to
+// `undefined`. The `const` keyword was also introduced in ECMAScript 2015, and
+// must be explicitly assigned to.
+const z = undefined;
+
+// Declares a variable named `myNumber`, and assigns a number literal (the value
+// `2`) to it.
+let myNumber = 2;
+
+// Reassigns `myNumber`, setting it to a string literal (the value `"foo"`).
+// JavaScript is a dynamically-typed language, so this is legal.
+myNumber = "foo";
+HTML과 자바스크립트
+HTML은 < > 태그로 엘리먼트(element)를 정의한다면, 이러한 HTML의 <body> Hello, World! </body> 엘리먼트에 일대일 대응하는 자바스크립트(ECMA스크립트)는
+
+document.body.innerText = "Hello, World!";
+처럼 정의된다. 여기서처럼 HTML과 자바스크립트 간에는 광범위한 호환성을 보장하는 동전의 양면성 같은 구조를 엿볼 수 있는데, 이것이 가능한 것은 DOM 때문이라고 말할 수 있다.[17]
+
+한편 자바스크립트는 HTML과의 연동관계에서 HTML의 로딩시점 또는 초기화와 관련된 즉시 실행 함수(Immediately invoked function expression)를 제공한다.
+
+버전 역사
+<nowiki /> 이 부분의 본문은 ECMA스크립트 § 판본입니다.
+버전	출시일	동등한 기술적 내용	넷스케이프
+내비게이터	모질라
+파이어폭스	인터넷
+익스플로러	오페라	사파리	구글
+크롬
+1.0	1996년 3월		2.0		3.0
+1.1	1996년 8월		3.0
+1.2	1997년 6월		4.0-4.05			3
+1.3	1998년 10월	ECMA-262 1st + 2nd edition	4.06-4.7x		4.0	5[18]
+1.4			넷스케이프
+서버			6
+1.5	2000년 11월	ECMA-262 3rd edition	6.0	1.0	5.5 (JScript 5.5),
+6 (JScript 5.6),
+7 (JScript 5.7),
+8 (JScript 5.8)	7.0	3.0-5	1.0-10.0.666
+1.6	2005년 11월	1.5 + array extras + array and string generics + E4X		1.5
+1.7	2006년 10월	1.6 + Pythonic generators Archived 2013년 3월 2일 - 웨이백 머신 + iterators + let		2.0				28.0.1500.95
+1.8	2008년 6월	1.7 + generator expressions + expression closures		3.0		11.50
+1.8.1		1.8 + native JSON support + minor updates		3.5
+1.8.2	2009년 6월 22일	1.8.1 + minor updates		3.6
+1.8.5	2010년 7월 27일	1.8.2 + new features for ECMA-262 5th edition compliance		4.0
+프로그래밍 언어
+한편 자바스크립트에서 사용되는 기초적인 문법의 개념으로는 속성과 메소드를 갖는 객체(오브젝트) 개념이 있으며, 변수 선언, 함수 정의, 연산자 그리고 제어문 등을 이 프로그래밍 언어의 주요 개념으로 언급할 수 있을뿐만아니라 이 언어가 속한 객체 지향 프로그래밍언어(OOP)의 공통적인 주요 개념이기도 한다.
+
+같이 보기
+	위키미디어 공용에 관련된
+미디어 분류가 있습니다.
+자바스크립트
+ECMA스크립트
+소스 대 소스 컴파일러
+DHTML
+자바스크립트 엔진
+Ajax
+jQuery
+프로토타입 자바스크립트 프레임워크
+리액트
+리덕스
+Node.js
+참고 문헌
+Nigel McFarlane: Rapid Application Development with Mozilla, Prentice Hall Professional Technical References, ISBN 0-13-142343-6
+David Flanagan, Paula Ferguson: JavaScript: The Definitive Guide, O'Reilly & Associates, ISBN 0-596-00048-0
+Danny Goodman, Scott Markel: JavaScript and DHTML Cookbook, O'Reilly & Associates, ISBN 0-596-00467-2
+Danny Goodman, Brendan Eich: JavaScript Bible, Wiley, John & Sons, ISBN 0-7645-3342-8
+Andrew H. Watt, Jinjer L. Simon, Jonathan Watt: Teach Yourself JavaScript in 21 Days, Pearson Education, ISBN 0-672-32297-8
+Thomas A. Powell, Fritz Schneider: JavaScript: The Complete Reference, McGraw-Hill Companies, ISBN 0-07-219127-9
+Scott Duffy: How to do Everything with JavaScript, Osborne, ISBN 0-07-222887-3
+Andy Harris, Andrew Harris: JavaScript Programming, Premier Press, ISBN 0-7615-3410-5
+Joe Burns, Andree S. Growney, Andree Growney: JavaScript Goodies, Pearson Education, ISBN 0-7897-2612-2
+Gary B. Shelly, Thomas J. Cashman, William J. Dorin, Jeffrey Quasney: JavaScript: Complete Concepts and Techniques, Course Technology, ISBN 0-7895-6233-2
+Nick Heinle, Richard Koman: Designing with JavaScript, O'Reilly & Associates, ISBN 1-56592-300-6
+Sham Bhangal, Tomasz Jankowski: Foundation Web Design: Essential HTML, JavaScript, CSS, PhotoShop, Fireworks, and Flash, APress L. P., ISBN 1-59059-152-6
+HTML&JavaScript -나윤지 이법기 고일석 공저,혜지원 2001
+각주
+ “ECMAScript® 2021 language specification”. 2021년 6월. 2021년 7월 27일에 확인함.
+ https://tc39.es/ecma262/; 확인한 날짜: 2021년 7월 27일; 저작물·명칭의 언어: 영어; 공식적으로 나온 날: 2021년 7월 22일.
+ [1], node.js ECMAScript Modules Specification
+ “What’s the difference between JavaScript and ECMAScript?” (영어). 2017년 10월 28일. 2021년 3월 15일에 확인함.
+ Payment, S. (2007). 《Marc Andreessen and Jim Clark: The Founders of Netscape》. Rosen Publishing Group. ISBN 978-1-4042-0719-6.
+ “Chapter 4. How JavaScript Was Created”.
+ Severance, Charles (February 2012). “JavaScript: Designing a Language in 10 Days”. 《Computer》 (IEEE Computer Society) 45 (2): 7–8. doi:10.1109/MC.2012.57. 2013년 3월 23일에 확인함.
+ Press release announcing JavaScript, "Netscape and Sun announce JavaScript", PR Newswire, December 4, 1995
+ “TechVision: Innovators of the Net: Brendan Eich and JavaScript”. web.archive.org. 2008년 2월 8일에 원본 문서에서 보존된 문서.
+ Fin JS (2016년 6월 17일), 《Brendan Eich - CEO of Brave》, 2018년 2월 7일에 확인함
+ “USPTO Copyright entry #75026640”. USPTO.
+ https://gamecodingschool.org/2015/06/28/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%ED%91%9C%EC%A4%80%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%A7%8C%EB%93%A4%EC%96%B4%EC%A7%80%EB%8A%94%EA%B0%80/
+ “Sun Trademarks”. Sun Microsystems. 2010년 5월 28일에 원본 문서에서 보존된 문서. 2007년 11월 8일에 확인함.
+ “var – JavaScript – MDN”. The Mozilla Developer Network. 2012년 12월 22일에 확인함.
+ “let”. 《MDN web docs》. Mozilla. 2018년 6월 27일에 확인함.
+ “const”. 《MDN web docs》. Mozilla. 2018년 6월 27일에 확인함.
+ “보관된 사본”. 2017년 9월 7일에 원본 문서에서 보존된 문서. 2017년 7월 30일에 확인함.
+ “What Version of Javascript”. 《Javascript.about.com》. 2016년 2월 22일. 2017년 2월 24일에 확인함.
+외부 링크
+MDN 웹 문서의 자바스크립트 문서
+(영어) 자바스크립트 - Curlie
+(영어) List of languages that compile to JS
+vte
+자바스크립트
