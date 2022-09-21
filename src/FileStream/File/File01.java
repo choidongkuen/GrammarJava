@@ -1,6 +1,6 @@
 // 입력 스트림이든 출력 스트림이든 항상 1바이트 단위로 데이터가 움직인다.
 // 1바이트 단위는 느리다.
-package FileStream;
+package FileStream.File;
 
 import java.io.*;
 public class File01 {

@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67812594-cf16-4692-83cf-d2101b5e9dce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FileStream/File03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FileStream/String/String01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FileStream/String/String02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FileStream/String/Test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileStream/File02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileStream/File02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileStream/Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileStream/Test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileStream/File01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileStream/File/File01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileStream/File02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileStream/File/File02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileStream/File03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileStream/File/File03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileStream/File04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileStream/File/File04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileStream/SubTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileStream/File/SubTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileStream/Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileStream/File/Test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +54,19 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.File03">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/FileStream/File" />
+      <recent name="$PROJECT_DIR$/src/StreamTest/File" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.String02">
     <configuration name="File01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FileStream.File01" />
+      <option name="MAIN_CLASS_NAME" value="FileStream.File.File01" />
       <module name="GrammarJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FileStream.*" />
+          <option name="PATTERN" value="FileStream.File.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,11 +75,11 @@
       </method>
     </configuration>
     <configuration name="File02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FileStream.File02" />
+      <option name="MAIN_CLASS_NAME" value="FileStream.File.File02" />
       <module name="GrammarJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FileStream.*" />
+          <option name="PATTERN" value="FileStream.File.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,11 +88,11 @@
       </method>
     </configuration>
     <configuration name="File03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FileStream.File03" />
+      <option name="MAIN_CLASS_NAME" value="FileStream.File.File03" />
       <module name="GrammarJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FileStream.*" />
+          <option name="PATTERN" value="FileStream.File.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Th10 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="쓰레드.Th10" />
+    <configuration name="String01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FileStream.String.String01" />
       <module name="GrammarJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="쓰레드.*" />
+          <option name="PATTERN" value="FileStream.String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Th10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="쓰레드.Th10" />
+    <configuration name="String02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FileStream.String.String02" />
       <module name="GrammarJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="쓰레드.*" />
+          <option name="PATTERN" value="FileStream.String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.String02" />
+        <item itemvalue="Application.String01" />
         <item itemvalue="Application.File03" />
         <item itemvalue="Application.File02" />
         <item itemvalue="Application.File01" />
-        <item itemvalue="Application.Th10" />
-        <item itemvalue="Application.Th10 (1)" />
       </list>
     </recent_temporary>
   </component>

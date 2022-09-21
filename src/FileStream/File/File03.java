@@ -1,7 +1,7 @@
 // 필터 스트림을 이용하여 원하는 데이터 타입으로 데이터를 읽거나 써보자.
 // 필터 입력 스트림, 필터 출력 스트림이 존재한다.
 
-package FileStream;
+package FileStream.File;
 
 import java.io.*;
 public class File03 {

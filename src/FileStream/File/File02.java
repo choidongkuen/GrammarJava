@@ -1,6 +1,6 @@
 // 버퍼를 이용해보자
 
-package FileStream;
+package FileStream.File;
 
 import java.io.*;
 

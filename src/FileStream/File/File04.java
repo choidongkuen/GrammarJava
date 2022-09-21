@@ -6,7 +6,7 @@
 // BufferedOutputStream 의 write 메소드는 버퍼가 다 차야 하드 디스크로 데이터를 보냄으로, 중간에 컴퓨터 전원이 나가면 정상적으로 write 되어지지 않을 수도 있다.
 // 따라서 flush 메소드를 이용하자.(버퍼가 꽉 차지 않아도, 파일로 전송) -> 충분히 close() 로 해결가능 # 빈번한 flush 메소드 호출은 버퍼의 이점을 상쇄!
 
-package FileStream;
+package FileStream.File;
 
 import java.io.*;
 
