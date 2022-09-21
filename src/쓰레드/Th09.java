@@ -6,16 +6,16 @@ package 쓰레드;
 class IHaveTwoNum{
 
     int num1 = 0;
-    int num2 = 0;
+    int num2 = 0; // 두개의 인스턴스 변수
 
     public void addOneNum1(){this.num1 += 1;} // num1 += 1
-    public void addTwoNum2(){this.num2 += 2;} // num2 += 2
-
-    public void addOneNum2(){this.num2 += 1;} // num2 += 1
     public void addTwoNum1(){this.num1 += 2;} // num1 += 2
 
+    public void addOneNum2(){this.num2 += 1;} // num2 += 1
+    public void addTwoNum2(){this.num2 += 2;} // num2 += 2
+
     // 각 메소드가 각 변수에 동시 접근 -> 동기화 필요!
-    // 그러나 4개의 모든 메소드를 동기화 메소드로 만든느 것은 '지나치게' 동기화 한 것
+    // 그러나 4개의 모든 메소드를 동기화 메소드로 만든느 것은 '지나치게' 동기화 한다.
 
     public void showAllNums(){
         System.out.println("num1 = " + num1);
@@ -25,7 +25,7 @@ class IHaveTwoNum{
 
 class AccessThread extends Thread{
 
-    IHaveTwoNum itn;
+    IHaveTwoNum itn; // 하나의 열쇠
 
     public AccessThread(IHaveTwoNum itn){
         this.itn = itn;
@@ -37,6 +37,8 @@ class AccessThread extends Thread{
 
         itn.addOneNum2();
         itn.addTwoNum2();
+        // 두개의 쓰레드가 실행이 될텐데, 하나의 쓰레드가 addOneNum1을 실행한다고 할 때, 다른 쓰레드가 addTwoNum1을 하는 것이 문제인가? No!
+        // 서로 다른 변수이기 때문에
     }
 }
 
