@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67812594-cf16-4692-83cf-d2101b5e9dce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FileStream/String/String01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FileStream/String/String02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FileStream/String/Test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileStream/File01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileStream/File/File01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileStream/File02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileStream/File/File02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileStream/File03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileStream/File/File03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileStream/File04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileStream/File/File04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileStream/SubTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileStream/File/SubTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileStream/Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileStream/File/Test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileStream/String/String02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileStream/String/String02.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
