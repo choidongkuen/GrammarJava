@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67812594-cf16-4692-83cf-d2101b5e9dce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/컬렉션/정렬/Comparable01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/컬렉션/정렬/Comparable02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/람다식/Lambda01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/람다식/Lambda02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/컬렉션/정렬/Comparable03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/컬렉션/정렬/Comparator01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/컬렉션/정렬/Comparator02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,9 +55,9 @@
       <recent name="$PROJECT_DIR$/src/StreamTest/File" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Comparable02">
-    <configuration name="Comparable02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="컬렉션.정렬.Comparable02" />
+  <component name="RunManager" selected="Application.Lambda02">
+    <configuration name="Comparable03 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="컬렉션.정렬.Comparable03" />
       <module name="GrammarJava" />
       <extension name="coverage">
         <pattern>
@@ -66,8 +69,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComparableTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="컬렉션.정렬.ComparableTest" />
+    <configuration name="Comparable03 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="컬렉션.정렬.Comparable03" />
       <module name="GrammarJava" />
       <extension name="coverage">
         <pattern>
@@ -79,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComparableTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="컬렉션.정렬.ComparableTest" />
+    <configuration name="Comparable03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="컬렉션.정렬.Comparable03" />
       <module name="GrammarJava" />
       <extension name="coverage">
         <pattern>
@@ -92,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComparableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="컬렉션.정렬.ComparableTest" />
+    <configuration name="Lambda01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="람다식.Lambda01" />
       <module name="GrammarJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="컬렉션.정렬.*" />
+          <option name="PATTERN" value="람다식.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Str02 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="스트링.StringBufferTest.Str02" />
+    <configuration name="Lambda02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="람다식.Lambda02" />
       <module name="GrammarJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="스트링.StringBufferTest.*" />
+          <option name="PATTERN" value="람다식.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Comparable02" />
-        <item itemvalue="Application.ComparableTest (2)" />
-        <item itemvalue="Application.ComparableTest" />
-        <item itemvalue="Application.ComparableTest (1)" />
-        <item itemvalue="Application.Str02 (2)" />
+        <item itemvalue="Application.Lambda02" />
+        <item itemvalue="Application.Lambda01" />
+        <item itemvalue="Application.Comparable03 (2)" />
+        <item itemvalue="Application.Comparable03 (1)" />
+        <item itemvalue="Application.Comparable03" />
       </list>
     </recent_temporary>
   </component>
