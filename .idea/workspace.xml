@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67812594-cf16-4692-83cf-d2101b5e9dce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/람다식/Lambda01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/람다식/Lambda02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/컬렉션/정렬/Comparable03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/컬렉션/정렬/Comparator01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/컬렉션/정렬/Comparator02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/기타/스트림/StreamTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/기타/스트림/StreamTest02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,34 +52,8 @@
       <recent name="$PROJECT_DIR$/src/StreamTest/File" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lambda02">
-    <configuration name="Comparable03 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="컬렉션.정렬.Comparable03" />
-      <module name="GrammarJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="컬렉션.정렬.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StreamTest02">
     <configuration name="Comparable03 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="컬렉션.정렬.Comparable03" />
-      <module name="GrammarJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="컬렉션.정렬.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Comparable03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="컬렉션.정렬.Comparable03" />
       <module name="GrammarJava" />
       <extension name="coverage">
@@ -121,13 +92,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="기타.스트림.StreamTest01" />
+      <module name="GrammarJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="기타.스트림.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="기타.스트림.StreamTest02" />
+      <module name="GrammarJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="기타.스트림.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamTest02" />
+        <item itemvalue="Application.StreamTest01" />
         <item itemvalue="Application.Lambda02" />
         <item itemvalue="Application.Lambda01" />
         <item itemvalue="Application.Comparable03 (2)" />
-        <item itemvalue="Application.Comparable03 (1)" />
-        <item itemvalue="Application.Comparable03" />
       </list>
     </recent_temporary>
   </component>
