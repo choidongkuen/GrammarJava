@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67812594-cf16-4692-83cf-d2101b5e9dce" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/FileStream/String/String02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileStream/String/String02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/스트링/StringBufferTest/SB01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/스트링/StringBufferTest/Str02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +52,13 @@
       <recent name="$PROJECT_DIR$/src/StreamTest/File" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.String02">
-    <configuration name="File01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FileStream.File.File01" />
+  <component name="RunManager" selected="Application.Str02 (2)">
+    <configuration name="SB01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스트링.StringBufferTest.SB01" />
       <module name="GrammarJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FileStream.File.*" />
+          <option name="PATTERN" value="스트링.StringBufferTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="File02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FileStream.File.File02" />
+    <configuration name="Str02 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스트링.StringBufferTest.Str02" />
       <module name="GrammarJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FileStream.File.*" />
+          <option name="PATTERN" value="스트링.StringBufferTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="File03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FileStream.File.File03" />
+    <configuration name="Str02 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스트링.StringBufferTest.Str02" />
       <module name="GrammarJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FileStream.File.*" />
+          <option name="PATTERN" value="스트링.StringBufferTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="String01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FileStream.String.String01" />
+    <configuration name="Str02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="스트링.StringBufferTest.Str02" />
       <module name="GrammarJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FileStream.String.*" />
+          <option name="PATTERN" value="스트링.StringBufferTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Str02 (2)" />
+        <item itemvalue="Application.Str02" />
+        <item itemvalue="Application.Str02 (1)" />
+        <item itemvalue="Application.SB01" />
         <item itemvalue="Application.String02" />
-        <item itemvalue="Application.String01" />
-        <item itemvalue="Application.File03" />
-        <item itemvalue="Application.File02" />
-        <item itemvalue="Application.File01" />
       </list>
     </recent_temporary>
   </component>
