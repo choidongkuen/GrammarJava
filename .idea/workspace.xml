@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67812594-cf16-4692-83cf-d2101b5e9dce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/컬렉션/맵/Map05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/컬렉션/맵/Map06.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +51,7 @@
       <recent name="$PROJECT_DIR$/src/StreamTest/File" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Map05">
+  <component name="RunManager" selected="Application.Map06">
     <configuration name="Map01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="컬렉션.맵.Map01" />
       <module name="GrammarJava" />
@@ -91,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="기타.스트림.StreamTest01" />
+    <configuration name="Map06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="컬렉션.맵.Map06" />
       <module name="GrammarJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="기타.스트림.*" />
+          <option name="PATTERN" value="컬렉션.맵.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Map06" />
         <item itemvalue="Application.Map05" />
         <item itemvalue="Application.Map04" />
         <item itemvalue="Application.Map01" />
         <item itemvalue="Application.StreamTest02" />
-        <item itemvalue="Application.StreamTest01" />
       </list>
     </recent_temporary>
   </component>
@@ -148,5 +148,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/컬렉션/맵/Map05.java</url>
+          <line>3</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
