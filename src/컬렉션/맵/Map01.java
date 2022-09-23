@@ -13,7 +13,8 @@
 // containsKey(Object key) # key 존재하는지 여부 확인
 // containsValue(Object value) # value 존재하는지 여부 확인
 // entrySet() # 모든 엔트리를 set 형태로 반환
-// keySet() # 모든 key 를 set 형태로 반
+// keySet() # 모든 key 를 set 형태로 반환
+// getOrDefault(K,D) # key 값을 통해 value 얻을 시, 없으면 D 반환(원래 없으면 에러 발생)
 
 package 컬렉션.맵;
 import java.util.HashMap;
@@ -44,7 +45,39 @@ public class Map01 {
         treeMap.put("BB","BB Value");
         treeMap.put("D","D Value");
 
+        System.out.println(" ===== HashMap EntrySet ===== ");
+        System.out.println(hashMap.entrySet());
+        System.out.println();
 
+        System.out.println(" ===== HashMap Keyset ===== ");
+        System.out.println(hashMap.keySet());
+        System.out.println();
+
+        System.out.println(" ===== HashMap Values ===== ");
+        System.out.println(hashMap.values());
+        System.out.println();
+
+        System.out.println(" ===== HashMap ===== ");
+//        for(String key: hashMap.keySet()) {
+//            System.out.println(key + " : " + hashMap.get(key));
+//        }
+        System.out.println(hashMap);
+        System.out.println();
+
+        System.out.println(" ===== HashMap Clone ===== ");
+        HashMap<String,String> anotherHashMap = (HashMap<String, String>)hashMap.clone();
+        System.out.println(anotherHashMap);
+        System.out.println();
+
+        hashMap.put("CC","CC Value"); // hashMap 쌍 추가
+        hashMap.replace("A","AA Values"); // hashMap value 값 변경
+
+
+        System.out.println(hashMap);
+        System.out.println(anotherHashMap); // anotherHashMap 에는 변화 반영 x -> clone : 얕은 복사
+        System.out.println();
+
+        System.out.println("======================================");
         System.out.println(" ===== HashMap ===== ");
         for(String key: hashMap.keySet()) {
             System.out.println(key + " : " + hashMap.get(key));
