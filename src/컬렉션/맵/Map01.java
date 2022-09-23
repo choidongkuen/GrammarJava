@@ -71,6 +71,7 @@ public class Map01 {
 
         hashMap.put("CC","CC Value"); // hashMap 쌍 추가
         hashMap.replace("A","AA Values"); // hashMap value 값 변경
+        System.out.println(hashMap.getOrDefault(2,"None"));
 
 
         System.out.println(hashMap);
