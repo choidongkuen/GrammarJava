@@ -9,12 +9,18 @@
 // values() # 모든 values 값을 컬렉션 형태로 출력
 // get(Object key) # key 해당하는 value 반환
 // clear() # 모든 데이터 삭제
-// clone() # 복제(얕은 복사)
+// clone() # 복제(깊은 복사)
 // containsKey(Object key) # key 존재하는지 여부 확인
 // containsValue(Object value) # value 존재하는지 여부 확인
 // entrySet() # 모든 엔트리를 set 형태로 반환
 // keySet() # 모든 key 를 set 형태로 반환
 // getOrDefault(K,D) # key 값을 통해 value 얻을 시, 없으면 D 반환(원래 없으면 에러 발생)
+
+
+// why Map?
+// List 형태를 사용하지 않고 HashMap을 사용하는 이유는 성능 때문이다.
+// 만약에 HashMap을 사용하지 않고 list를 사용했다면 원소를 검색하는데 시간복잡도는 O(n)일 것이다.
+// 반면에 HashMap은 삽입, 검색에 시간복잡도 O(1)이라는 이점을 가지고 있다. (중요)
 
 package 컬렉션.맵;
 import java.util.HashMap;
@@ -70,18 +76,24 @@ public class Map01 {
         System.out.println();
 
         hashMap.put("CC","CC Value"); // hashMap 쌍 추가
-        hashMap.replace("A","AA Values"); // hashMap value 값 변경
+//        hashMap.replace("A","AA Values"); // hashMap value 값 변경
+        hashMap.put("A","AA Values");
         System.out.println(hashMap.getOrDefault(2,"None"));
 
 
         System.out.println(hashMap);
-        System.out.println(anotherHashMap); // anotherHashMap 에는 변화 반영 x -> clone : 얕은 복사
+        System.out.println(anotherHashMap); // anotherHashMap 에는 변화 반영 x -> clone : 깊은 복사(독립적인 객페)
         System.out.println();
 
         System.out.println("======================================");
         System.out.println(" ===== HashMap ===== ");
         for(String key: hashMap.keySet()) {
             System.out.println(key + " : " + hashMap.get(key));
+        }
+
+        System.out.println(" ===== HashMapClone ===== ");
+        for(String key: anotherHashMap.keySet()){
+            System.out.println(key + " : " + anotherHashMap.get(key));
         }
 
         System.out.println(" ==== LinkedHashMap ==== ");
@@ -94,6 +106,7 @@ public class Map01 {
 
         for(String key: treeMap.keySet()){
             System.out.println(key + " : " + treeMap.get(key));
+            
         }
     }
 }
