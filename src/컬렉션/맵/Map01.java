@@ -78,6 +78,7 @@ public class Map01 {
         hashMap.put("CC","CC Value"); // hashMap 쌍 추가
 //        hashMap.replace("A","AA Values"); // hashMap value 값 변경
         hashMap.put("A","AA Values");
+        hashMap.put("Additional A","AA Values"); // hashMap.values() 체크!
         System.out.println(hashMap.getOrDefault(2,"None"));
 
 
@@ -106,7 +107,15 @@ public class Map01 {
 
         for(String key: treeMap.keySet()){
             System.out.println(key + " : " + treeMap.get(key));
-            
         }
+
+        System.out.println(" == HashMap Values == "); // 중복허용하면서 values 출력
+        System.out.println(hashMap.values());
+
+        System.out.println(" == HashMap entryset == "); // key - value set 출력
+        System.out.println(hashMap.entrySet());
+
+        System.out.println(" == HashMap keySet == "); // key set 출력
+        System.out.println(hashMap.keySet());
     }
 }
